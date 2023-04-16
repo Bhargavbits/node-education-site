@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css ">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    {{!-- <button class="btn btn-success">click</button> --}}
+    {{>navbar}}
+    {{!-- //main h section --}}
+   <div class="container-fluid mt-5">
+    <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+            <div class="row">
+                <div class="col-md-6 col-12 hero text order-md-0 order-1 d-flex justify-content-center align-items-start flex-column">
+                    <h1>EDUCATION IS EASY</h1>
+                    <h1>HAVE THE BEST STUDY MATERIAL</h1>
+                    <p>We provide you the easiest way to<span class="bold-style">  learn</span></p>
+                    <button class="btn-style btn-primary">Read more</button>
+
+                </div>
+                 <div class="col-md-6 col-12 hero text order-md-1 order-1">
+                    <figure>
+                        <img src="images/one42.jpg" alt="images section">
+                    </figure>
+
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+   {{!-- section end --}}
+   {{>about}}
+   {{>service}}
+   {{>contact}}
+   
+    <script src="../jq/jquery.js" type="text/javascript"></script>
+    <script src="../js/bootstrap.js" type="text/javascript"></script>
+</body>
+</html>
